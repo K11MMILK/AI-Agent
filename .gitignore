@@ -1,0 +1,33 @@
+# --- Go ---
+/bin/
+/build/
+/dist/
+/out/
+/coverage/
+/coverage.*.out
+*.test
+*.out
+
+# --- Playwright / браузер ---
+user-data-dir*/
+aiagent_profile_*/
+storageState*.json
+playwright/.auth/
+playwright-report/
+screenshots/
+videos/
+traces/
+*.log
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# --- Secrets / Env ---
+.env
+.env.*
+*.key
+*.pem
